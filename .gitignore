@@ -1,0 +1,22 @@
+# залежності та збірка
+node_modules/
+bin/
+obj/
+dist/
+
+# секрети та локальні налаштування
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# IDE та ОС
+.vs/
+.idea/
+.DS_Store
+
+__pycache__
+.venv
+Files/
+Output/
